@@ -50,6 +50,7 @@ Optional visualization: Power BI, Tableau, Metabase
 
 📁 Repository Structure
 
+.
 ├── dbt_project.yml
 ├── README.md
 ├── packages.yml
@@ -74,6 +75,7 @@ Optional visualization: Power BI, Tableau, Metabase
 │   └── utils.sql
 └── analyses/
     └── exploratory_queries.sql
+
 
 
 📦 Installation & Setup
