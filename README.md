@@ -51,30 +51,30 @@ Optional visualization: Power BI, Tableau, Metabase
 📁 Repository Structure
 
 .
-├── dbt_project.yml
-├── README.md
-├── packages.yml
-├── models/
-│   ├── staging/
-│   │   ├── stg_netflix_titles.sql
-│   │   ├── stg_viewing_history.sql
-│   │   └── stg_users.sql
-│   ├── marts/
-│   │   ├── core/
-│   │   │   ├── dim_titles.sql
-│   │   │   └── fct_viewing_sessions.sql
-│   │   └── analytics/
-│   │       ├── top_titles_by_views.sql
-│   │       └── retention_analysis.sql
-│   └── marts.yml
-├── seeds/
-│   └── lookup_genres.csv
-├── snapshots/
-│   └── titles_snapshot.sql
-├── macros/
-│   └── utils.sql
-└── analyses/
-    └── exploratory_queries.sql
+|-- dbt_project.yml
+|-- README.md
+|-- packages.yml
+|-- models/
+|   |-- staging/
+|   |   |-- stg_netflix_titles.sql
+|   |   |-- stg_viewing_history.sql
+|   |   `-- stg_users.sql
+|   |-- marts/
+|   |   |-- core/
+|   |   |   |-- dim_titles.sql
+|   |   |   `-- fct_viewing_sessions.sql
+|   |   `-- analytics/
+|   |       |-- top_titles_by_views.sql
+|   |       `-- retention_analysis.sql
+|   `-- marts.yml
+|-- seeds/
+|   `-- lookup_genres.csv
+|-- snapshots/
+|   `-- titles_snapshot.sql
+|-- macros/
+|   `-- utils.sql
+`-- analyses/
+    `-- exploratory_queries.sql
 
 
 
